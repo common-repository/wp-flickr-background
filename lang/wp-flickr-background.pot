@@ -1,0 +1,577 @@
+# Translation of the WordPress plugin WP Flickr Background 1.0.2 by Mike Green (Myatu).
+# Copyright (C) 2010 Mike Green (Myatu)
+# This file is distributed under the same license as the WP Flickr Background package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Flickr Background 1.0.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-flickr-background\n"
+"POT-Creation-Date: 2010-02-26 13:00+0000\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: adm-about.php:40
+#, php-format
+msgid ""
+"Thank you for using <strong>%s</strong>! If you really like it, you could:"
+msgstr ""
+
+#: adm-about.php:42
+msgid "Link to it so others can find out about it,"
+msgstr ""
+
+#: adm-about.php:43
+msgid "Give it a good rating on WordPress.org, or"
+msgstr ""
+
+#: adm-about.php:44
+msgid "Consider a small donation as a token of your appreciation:"
+msgstr ""
+
+#: adm-about.php:58
+msgid "Copyright"
+msgstr ""
+
+#: adm-about.php:60
+#, php-format
+msgid ""
+"%s version %s - Copyright 2010 <a href=\"%s\" onclick=\"return ! window.open"
+"(this.href);\">%s</a>."
+msgstr ""
+
+#: adm-about.php:63 adm-gallery-edit.php:133 wp-flickr-background.php:364
+#: wp-flickr-background.php:841
+msgid "License"
+msgstr ""
+
+#: adm-about.php:71
+msgid "See http://www.gnu.org/licenses/gpl.html for more details"
+msgstr ""
+
+#: adm-configuration.php:38
+msgid "Top Left"
+msgstr ""
+
+#: adm-configuration.php:39
+msgid "Top Right"
+msgstr ""
+
+#: adm-configuration.php:40
+msgid "Bottom Left"
+msgstr ""
+
+#: adm-configuration.php:41
+msgid "Bottom Right"
+msgstr ""
+
+#: adm-configuration.php:48
+msgid "browser session"
+msgstr ""
+
+#: adm-configuration.php:49
+msgid "15 minutes"
+msgstr ""
+
+#: adm-configuration.php:50
+msgid "1 hour"
+msgstr ""
+
+#: adm-configuration.php:51
+msgid "3 hours"
+msgstr ""
+
+#: adm-configuration.php:52
+msgid "12 hours"
+msgstr ""
+
+#: adm-configuration.php:53
+msgid "day"
+msgstr ""
+
+#: adm-configuration.php:54
+msgid "week"
+msgstr ""
+
+#: adm-configuration.php:55
+msgid "month"
+msgstr ""
+
+#: adm-configuration.php:84
+msgid "General Configuration"
+msgstr ""
+
+#: adm-configuration.php:88
+msgid "Active Gallery"
+msgstr ""
+
+#: adm-configuration.php:99
+msgid ""
+"<p>This option allows you to select a gallery from which the plugin will "
+"randomly select photos</p>"
+msgstr ""
+
+#: adm-configuration.php:105
+msgid "Change Frequency"
+msgstr ""
+
+#: adm-configuration.php:107
+msgid "Change the background every"
+msgstr ""
+
+#: adm-configuration.php:117
+msgid ""
+"<p>With this option you can determine how often the background should change "
+"for the visitor.</p>"
+msgstr ""
+
+#: adm-configuration.php:123
+msgid "Background Image Configuration"
+msgstr ""
+
+#: adm-configuration.php:126
+msgid ""
+"For most configurations, stretching the image horizontally and bottom-left "
+"alignment gives the best results. However, you may need to adjust "
+msgstr ""
+
+#: adm-configuration.php:133
+msgid "Stretch Image"
+msgstr ""
+
+#: adm-configuration.php:140
+msgid "Strech Vertically"
+msgstr ""
+
+#: adm-configuration.php:146
+msgid "Strech Horizontally"
+msgstr ""
+
+#: adm-configuration.php:153
+msgid "Image Alignment"
+msgstr ""
+
+#: adm-configuration.php:176
+msgid "Theme Background"
+msgstr ""
+
+#: adm-configuration.php:180
+#, php-format
+msgid "Disable the <strong>%s</strong> theme background."
+msgstr ""
+
+#: adm-configuration.php:183
+msgid ""
+"<p>This option will prevent the background image of the active WordPress "
+"theme from loading, which would otherwise be redundant with this plugin.</p>"
+msgstr ""
+
+#: adm-configuration.php:190
+msgid "Javascript Compression"
+msgstr ""
+
+#: adm-configuration.php:194
+msgid "Enable Javascript compression."
+msgstr ""
+
+#: adm-configuration.php:197
+msgid ""
+"<p>Enabling Javascript compression can reduce the amount of time it takes "
+"for the visitor to download the plugin's Javascript code.</p>"
+msgstr ""
+
+#: adm-configuration.php:204
+msgid "Cacheable"
+msgstr ""
+
+#: adm-configuration.php:210
+msgid ""
+"Allow the plugin to be cacheable by a WordPress cache such as <strong>WP "
+"Super Cache</strong>."
+msgstr ""
+
+#: adm-configuration.php:212
+#, php-format
+msgid "Allow the plugin to be cacheable by <strong>%s</strong>."
+msgstr ""
+
+#: adm-configuration.php:217
+msgid ""
+"<p>By default this plugin will call an external Javascript and style sheet, "
+"which are not cached by most WordPress caches.</p>"
+msgstr ""
+
+#: adm-configuration.php:231
+#, php-format
+msgid ""
+"Did you know you could make %s load faster? Simply create a writable <code>."
+"confighash</code> in the plugin's directory!"
+msgstr ""
+
+#: adm-configuration.php:234
+msgid ""
+"If you are using Linux or a similar operating system, this can be done using "
+"the following two commands (actual directory path may vary): "
+msgstr ""
+
+#: adm-configuration.php:244 adm-gallery-edit.php:246
+msgid "Save Changes"
+msgstr ""
+
+#: adm-galleries.php:55
+msgid "&laquo;"
+msgstr ""
+
+#: adm-galleries.php:56
+msgid "&raquo;"
+msgstr ""
+
+#: adm-galleries.php:61
+#, php-format
+msgid "Displaying %s&#8211;%s of %s"
+msgstr ""
+
+#: adm-galleries.php:81 adm-galleries.php:166 adm-gallery-edit.php:208
+msgid "Bulk Actions"
+msgstr ""
+
+#: adm-galleries.php:82 adm-galleries.php:167 adm-gallery-edit.php:209
+msgid "Delete Selected"
+msgstr ""
+
+#: adm-galleries.php:84 adm-galleries.php:169 adm-gallery-edit.php:211
+msgid "Apply"
+msgstr ""
+
+#: adm-galleries.php:94 adm-galleries.php:102
+msgid "Gallery"
+msgstr ""
+
+#: adm-galleries.php:95 adm-galleries.php:103 adm-gallery-edit.php:180
+msgid "Description"
+msgstr ""
+
+#: adm-galleries.php:139
+msgid "Edit this gallery"
+msgstr ""
+
+#: adm-galleries.php:139
+msgid "Edit"
+msgstr ""
+
+#: adm-galleries.php:143
+msgid "Delete this gallery"
+msgstr ""
+
+#: adm-galleries.php:143 adm-gallery-edit.php:145
+msgid "Delete"
+msgstr ""
+
+#: adm-galleries.php:149
+#, php-format
+msgid "%s Photo"
+msgid_plural "%s Photos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: adm-gallery-edit.php:128 wp-flickr-background.php:840
+msgid "by"
+msgstr ""
+
+#: adm-gallery-edit.php:132 wp-flickr-background.php:362
+msgid "Photo by"
+msgstr ""
+
+#: adm-gallery-edit.php:143 wp-flickr-background.php:299
+#: wp-flickr-background.php:300
+msgid "Preview"
+msgstr ""
+
+#: adm-gallery-edit.php:172
+msgid "Gallery Name"
+msgstr ""
+
+#: adm-gallery-edit.php:175
+msgid "Enter a short name for this galllery"
+msgstr ""
+
+#: adm-gallery-edit.php:187
+msgid "Custom CSS Styling"
+msgstr ""
+
+#: adm-gallery-edit.php:191
+msgid ""
+"You can optionally provide additional CSS Styling Code that will be loaded "
+"when this gallery is active or previewed. "
+msgstr ""
+
+#: adm-gallery-edit.php:203
+msgid "Photos in this gallery"
+msgstr ""
+
+#: adm-gallery-edit.php:214
+msgid "Add Photo"
+msgstr ""
+
+#: adm-gallery-edit.php:215
+msgid ""
+"<p>Adding a photo is simple. Visit <strong>Flickr</strong> and search for "
+"photo's that interest you. "
+msgstr ""
+
+#: adm-gallery-edit.php:228
+msgid "You do not have any photos in this gallery yet."
+msgstr ""
+
+#: adm-gallery-edit.php:231
+msgid ""
+"To start adding photos to this gallery, enter a Flickr Photo Source URL in "
+"the provided field above and click the <strong>Add Photo</strong> button."
+msgstr ""
+
+#: adm-gallery-edit.php:246
+msgid "Add Gallery"
+msgstr ""
+
+#: inc/class-Flickr.php:164
+msgid "There was a problem contacting Flickr. Please try again."
+msgstr ""
+
+#: inc/class-Flickr.php:167
+msgid "Malformed results received from Flickr. Please try again."
+msgstr ""
+
+#: inc/class-Flickr.php:172
+msgid "The photo could not be found or has been removed from public view."
+msgstr ""
+
+#: inc/class-Flickr.php:175
+msgid "You do not have permission to view this photo."
+msgstr ""
+
+#: inc/class-Flickr.php:178
+msgid "There was a problem with the API Key. Please contact the plugin author."
+msgstr ""
+
+#: inc/class-Flickr.php:181 wp-flickr-background.php:673
+msgid "Flickr is currently too busy. Please try again later."
+msgstr ""
+
+#: inc/class-Flickr.php:184
+msgid ""
+"Flickr does not support the requested format. Please contact the plugin "
+"author."
+msgstr ""
+
+#: inc/class-Flickr.php:187
+msgid ""
+"Flickr does not support the requested function. Please contact the plugin "
+"author."
+msgstr ""
+
+#: inc/class-Flickr.php:190
+#, php-format
+msgid "Flickr reported <i>\"%s\"</i>."
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:273
+#, php-format
+msgid ""
+"%s requires %s version %s or better, however version %s was detected. Proper "
+"functioning of this plugin cannot be guaranteed."
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:304
+#, php-format
+msgid ""
+"Successfuly upgraded <strong>%s</strong> to version <strong>%s</strong>."
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:893
+#, php-format
+msgid ""
+"<strong>Critical:</strong> Unable to upgrade or create the options for "
+"<strong>%s</strong>"
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:947
+#, php-format
+msgid "Configure %s"
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:947
+msgid "Settings"
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:978
+msgid "Malformed Ajax Request"
+msgstr ""
+
+#: inc/class-myatuPluginBase.php:983
+msgid "No Event Response"
+msgstr ""
+
+#: wp-flickr-background.php:163
+msgid "Configuration"
+msgstr ""
+
+#: wp-flickr-background.php:164
+#, php-format
+msgid "Galleries <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: wp-flickr-background.php:165
+msgid "About"
+msgstr ""
+
+#: wp-flickr-background.php:176
+#, php-format
+msgid ""
+"<p>For more information visit the <a href=\"%s\" onclick=\"return ! window."
+"open(this.href);\">%s</a> home page.</p>"
+msgstr ""
+
+#: wp-flickr-background.php:180
+#, php-format
+msgid "<p>On this page you can specify the general configuration of %s.</p>"
+msgstr ""
+
+#: wp-flickr-background.php:184
+msgid ""
+"<p>On this page you can view all the available galleries and perform "
+"additional functions such as create, edit or delete a gallery.</p>"
+msgstr ""
+
+#: wp-flickr-background.php:188
+msgid ""
+"<p>This page allows you to modify a gallery's name, description and add "
+"Flickr photos.</p>"
+msgstr ""
+
+#: wp-flickr-background.php:575
+msgid "No gallery name was specified"
+msgstr ""
+
+#: wp-flickr-background.php:647
+msgid "The URL specfied is not a valid Flickr Photo Source"
+msgstr ""
+
+#: wp-flickr-background.php:651
+#, php-format
+msgid ""
+"The photo is hosted at <strong>%s</strong>, which is not part of the Flickr "
+"service"
+msgstr ""
+
+#: wp-flickr-background.php:664
+#, php-format
+msgid ""
+"The specified Flickr media is not a photo but a <strong>%s</strong>. Please "
+"specify photos only."
+msgstr ""
+
+#: wp-flickr-background.php:732
+msgid "You do not have sufficient permissions."
+msgstr ""
+
+#: wp-flickr-background.php:737
+msgid "Unable to add the gallery"
+msgstr ""
+
+#: wp-flickr-background.php:739
+msgid "Successfully added the new gallery"
+msgstr ""
+
+#: wp-flickr-background.php:748
+msgid "Unable to update the gallery"
+msgstr ""
+
+#: wp-flickr-background.php:750
+msgid "Successfully updated the gallery"
+msgstr ""
+
+#: wp-flickr-background.php:760
+msgid "Gallery has been deleted."
+msgstr ""
+
+#: wp-flickr-background.php:762
+msgid "Could not delete the gallery!"
+msgstr ""
+
+#: wp-flickr-background.php:779
+msgid "The selected galleries have been deleted."
+msgstr ""
+
+#: wp-flickr-background.php:781
+msgid "One or more selected gallery could not be deleted!"
+msgstr ""
+
+#: wp-flickr-background.php:788
+msgid "The configuration has been saved"
+msgstr ""
+
+#: wp-flickr-background.php:790
+msgid "The configuration could not be saved!"
+msgstr ""
+
+#: wp-flickr-background.php:808
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: wp-flickr-background.php:818
+msgid "That submenu does not exist."
+msgstr ""
+
+#: wp-flickr-background.php:842
+msgid "The authenticity of the Ajax response could not be verified"
+msgstr ""
+
+#: wp-flickr-background.php:843
+msgid "The photo has been added to the gallery"
+msgstr ""
+
+#: wp-flickr-background.php:844
+msgid "The photo is already in this gallery"
+msgstr ""
+
+#: wp-flickr-background.php:845
+msgid "Error"
+msgstr ""
+
+#: wp-flickr-background.php:846
+msgid "An unknown Ajax response was received. Please try again"
+msgstr ""
+
+#: wp-flickr-background.php:847
+msgid "Please enter a name for this gallery before saving"
+msgstr ""
+
+#. Plugin Name of an extension
+msgid "WP Flickr Background"
+msgstr ""
+
+#. Plugin URI of an extension
+msgid "http://www.myatus.co.uk/wp-flickr-background/"
+msgstr ""
+
+#. Description of an extension
+msgid ""
+"WP Flickr Background is a simple to use WordPress plugin that allows you to "
+"display a photo from Flickr as the theme background, without the need to "
+"modify any files."
+msgstr ""
+
+#. Author of an extension
+msgid "Mike Green (Myatu)"
+msgstr ""
+
+#. Author URI of an extension
+msgid "http://www.myatus.co.uk/"
+msgstr ""
